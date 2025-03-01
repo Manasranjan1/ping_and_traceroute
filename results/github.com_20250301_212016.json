@@ -1,0 +1,16 @@
+{
+    "ping": {
+        "host": "github.com",
+        "success": true,
+        "output": "\nPinging github.com [20.207.73.82] with 32 bytes of data:\nReply from 20.207.73.82: bytes=32 time=57ms TTL=119\nReply from 20.207.73.82: bytes=32 time=51ms TTL=119\nReply from 20.207.73.82: bytes=32 time=49ms TTL=119\nReply from 20.207.73.82: bytes=32 time=92ms TTL=119\n\nPing statistics for 20.207.73.82:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 49ms, Maximum = 92ms, Average = 62ms\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:18:47.889565"
+    },
+    "traceroute": {
+        "host": "github.com",
+        "success": true,
+        "output": "\nTracing route to github.com [20.207.73.82]\nover a maximum of 30 hops:\n\n  1    <1 ms    <1 ms    <1 ms  dsldevice.lan [192.168.1.1] \n  2     6 ms     5 ms     5 ms  abts-north-dynamic-255.111.57.27.airtelbroadband.in [27.57.111.255] \n  3     7 ms     6 ms     5 ms  nsg-corporate-57.77.186.122.airtel.in [122.186.77.57] \n  4    22 ms    16 ms    13 ms  116.119.52.119 \n  5    20 ms    10 ms    15 ms  ae68-0.del01-96cbe-1b.ntwk.msn.net [104.44.36.21] \n  6    52 ms   101 ms   102 ms  104.44.51.55 \n  7   112 ms     *      106 ms  104.44.53.45 \n  8   127 ms     *      129 ms  104.44.31.62 \n  9    63 ms    61 ms    60 ms  ae120-0.rwa01.pnq21.ntwk.msn.net [104.44.11.250] \n 10     *        *        *     Request timed out.\n 11     *        *        *     Request timed out.\n 12     *        *        *     Request timed out.\n 13     *        *        *     Request timed out.\n 14    48 ms    46 ms    52 ms  20.207.73.82 \n\nTrace complete.\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:20:16.185450"
+    }
+}

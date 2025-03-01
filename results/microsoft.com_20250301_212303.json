@@ -1,0 +1,16 @@
+{
+    "ping": {
+        "host": "microsoft.com",
+        "success": true,
+        "output": "\nPinging microsoft.com [20.112.250.133] with 32 bytes of data:\nReply from 20.112.250.133: bytes=32 time=264ms TTL=108\nReply from 20.112.250.133: bytes=32 time=261ms TTL=108\nReply from 20.112.250.133: bytes=32 time=276ms TTL=108\nReply from 20.112.250.133: bytes=32 time=294ms TTL=108\n\nPing statistics for 20.112.250.133:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 261ms, Maximum = 294ms, Average = 273ms\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:20:19.535195"
+    },
+    "traceroute": {
+        "host": "microsoft.com",
+        "success": true,
+        "output": "\nTracing route to microsoft.com [20.112.250.133]\nover a maximum of 30 hops:\n\n  1     9 ms     5 ms     8 ms  dsldevice.lan [192.168.1.1] \n  2     4 ms     6 ms     3 ms  abts-north-dynamic-255.111.57.27.airtelbroadband.in [27.57.111.255] \n  3     9 ms     5 ms     5 ms  nsg-corporate-53.77.186.122.airtel.in [122.186.77.53] \n  4    10 ms    10 ms    10 ms  182.79.208.12 \n  5    29 ms    14 ms    67 ms  ae68-0.del01-96cbe-1b.ntwk.msn.net [104.44.36.21] \n  6    35 ms    28 ms   124 ms  104.44.51.55 \n  7   264 ms   327 ms   306 ms  104.44.53.45 \n  8   247 ms   250 ms   248 ms  104.44.55.65 \n  9   289 ms   307 ms   306 ms  104.44.31.14 \n 10   322 ms   253 ms   254 ms  be-23-0.ibr02.mrs20.ntwk.msn.net [104.44.28.173] \n 11   268 ms   305 ms   275 ms  104.44.31.70 \n 12   318 ms   285 ms   306 ms  104.44.31.41 \n 13     *        *        *     Request timed out.\n 14     *        *        *     Request timed out.\n 15   339 ms   306 ms   306 ms  51.10.18.8 \n 16   319 ms   306 ms   306 ms  be-3-0.ibr02.ewr30.ntwk.msn.net [104.44.7.105] \n 17   264 ms     *      320 ms  be-10-0.ibr02.cle30.ntwk.msn.net [104.44.17.217] \n 18   260 ms   250 ms   341 ms  be-11-0.ibr02.ch4.ntwk.msn.net [104.44.29.45] \n 19   280 ms   287 ms     *     be-7-0.ibr04.dsm05.ntwk.msn.net [104.44.28.222] \n 20   292 ms   283 ms   344 ms  51.10.16.145 \n 21   340 ms   294 ms   285 ms  104.44.54.246 \n 22     *        *        *     Request timed out.\n 23     *        *        *     Request timed out.\n 24     *        *        *     Request timed out.\n 25     *        *        *     Request timed out.\n 26   301 ms   307 ms   306 ms  20.112.250.133 \n\nTrace complete.\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:23:03.108725"
+    }
+}

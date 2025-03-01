@@ -1,0 +1,16 @@
+{
+    "ping": {
+        "host": "google.com",
+        "success": true,
+        "output": "\nPinging google.com [142.250.193.238] with 32 bytes of data:\nReply from 142.250.193.238: bytes=32 time=15ms TTL=119\nReply from 142.250.193.238: bytes=32 time=14ms TTL=119\nReply from 142.250.193.238: bytes=32 time=15ms TTL=119\nReply from 142.250.193.238: bytes=32 time=12ms TTL=119\n\nPing statistics for 142.250.193.238:\n    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),\nApproximate round trip times in milli-seconds:\n    Minimum = 12ms, Maximum = 15ms, Average = 14ms\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:18:19.027395"
+    },
+    "traceroute": {
+        "host": "google.com",
+        "success": true,
+        "output": "\nTracing route to google.com [142.250.193.238]\nover a maximum of 30 hops:\n\n  1    <1 ms    <1 ms    <1 ms  dsldevice.lan [192.168.1.1] \n  2    19 ms    10 ms    10 ms  abts-north-dynamic-255.111.57.27.airtelbroadband.in [27.57.111.255] \n  3    10 ms    11 ms    12 ms  nsg-corporate-57.77.186.122.airtel.in [122.186.77.57] \n  4    12 ms    11 ms    13 ms  182.79.208.13 \n  5     9 ms    10 ms    11 ms  72.14.222.116 \n  6    21 ms    11 ms    10 ms  72.14.234.225 \n  7    12 ms    11 ms    15 ms  142.251.54.101 \n  8    16 ms    10 ms    11 ms  del11s18-in-f14.1e100.net [142.250.193.238] \n\nTrace complete.\n",
+        "error": null,
+        "timestamp": "2025-03-01T21:18:44.709631"
+    }
+}
